@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  height: 100vh;
+  background-color: white;
+  background-image: url(https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+header {
+  color: #ffe83a;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.content--logged {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__heading {
+  margin-top: 0;
+  text-align: center;
+  color: #ffe83a;
+  text-shadow: 1px 1px 3px black;
+}
+.content__google-link {
+  text-decoration: none;
+  cursor: pointer;
+  height: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content__google-logo {
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.content__login-form {
+  color: #ffe83a;
+  text-shadow: 1px 1px 3px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.content__login-form label,
+.content__login-form input {
+  width: 200px;
+  font-size: 1.1em;
+}
+.content__login-form > * {
+  margin-bottom: 10px;
+}
+.content__button {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: linear-gradient(to bottom, #ffed64 5%, #ffab23 100%);
+  background-color: #ffed64;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+  margin: 16px 0;
+}
+.content__button:hover {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffed64 100%);
+  background-color: #ffab23;
+}
+.content__button:active {
+  position: relative;
+  top: 1px;
+}
+.content__sub {
+  color: #ffe83a;
+  text-shadow: 1px 1px 3px black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #000;
+  text-align: center;
+}
+.footer__text {
+  color: #ffe83a;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title="AWESOME app"
+        link(rel="stylesheet" href="/style.css")
+    body
+        include ./header.pug
+        div.content.content--logged 
+            p.content__sub You successfully logged in!
+            a.content__button(href="/drumset.html") Click to play some drums
+            span.content__sub Thanks to Wes Bos!!
+        include ./footer.pug

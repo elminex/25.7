@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Node with express
+    link(rel='stylesheet', href='/style.css')
+  body
+    include ./header.pug
+    .content
+      h2.content__heading
+        | Login with
+        a.content__google-link(href='https://www.google.com', target='_blank')
+          img.content__google-logo(src='Google_logo.png', alt='Go to google')
+      a.content__button(href='http://localhost:3000/auth/google', method='GET') Click here to log in
+    include ./footer.pug
